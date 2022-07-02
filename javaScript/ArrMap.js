@@ -1,3 +1,4 @@
+//là hàm dùng để lặp qua các phần tử của mảng và cho phép xử lý giá trị của phần tử đó.
 function submit(){
     const a = [2,4,5,7,9];
     const b = a.map(myFunction);
@@ -7,3 +8,12 @@ function submit(){
         return value*2;
     }
 }
+
+var fruit = [
+    'Apple',
+    'Orange',
+    'Banana'
+];
+fruit.map(function(item){
+    console.log(item);
+})
